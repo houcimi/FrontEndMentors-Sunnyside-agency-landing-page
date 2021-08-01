@@ -317,3 +317,83 @@ body {
 .footer .socialmedia li a:hover {
     color: white;
 }
+
+/* Mobile */
+@media (max-width:767px) {
+    .header nav ul {
+        display: none;
+       
+    }
+    .egg {
+        flex-direction: column-reverse;
+    }
+    .egg .text {
+        padding: 35px;
+      text-align: center;
+    }
+    .egg img {
+        max-width: 100%; 
+    }
+    .standout {
+        flex-direction: column;
+    }
+    .standout img {
+        max-width: 100%;
+    }
+    .standout .text {
+        padding: 35px;
+      text-align: center;
+    }
+    .designphotography {
+        flex-direction: column;
+    }
+    .designphotography .graphic {
+        position: relative;
+        max-width: 100%;
+        margin-bottom: -4px;
+    }
+    .designphotography .graphic .lef h1 {
+        font-size: 18px;
+    }
+    .designphotography .graphic .lef p {
+        font-size: 11px;
+        max-width: 62%;
+    }
+    .designphotography .photograp {
+        max-width: 100%;
+    }
+    .designphotography .photograp .rigt h1 {
+        font-size: 18px;
+    }
+    .designphotography .photograp .rigt p {
+        font-size: 11px;
+    max-width: 62%;
+        
+    }
+    .testimonials {
+        padding: 25px;
+    }
+    .testimonials > h1 {
+        font-size: 13px;
+    }
+    .testimonials .boxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .testimonials .boxes .box {
+        width: 100%; 
+        margin-bottom: 41px;
+    }
+    .testimonials .boxes .box h1 {
+        margin-top: 29px;
+    }
+    .secphotos {
+        flex-wrap: wrap;
+    }
+    .secphotos img {
+        max-width: 50%;
+    }
+
+}
